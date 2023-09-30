@@ -102,8 +102,440 @@ GO
 ### Energía Azteca VIII,S. de R. L. de C. V.
 
 ```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
+------------------------------------------------------
+-------------------ENERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('475EAEC6-58C4-4339-9015-7529D4369CDD'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('1DA8A2F8-4326-43A1-9EF4-9C6E131765C5'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'475EAEC6-58C4-4339-9015-7529D4369CDD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,1
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------FEBRERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('CA47F580-FBF5-420A-8DD8-F95F6E6AFE77'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('F679825A-69D1-4B12-AFA9-A7F9883B244A'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'CA47F580-FBF5-420A-8DD8-F95F6E6AFE77'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,2
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MARZO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7834B122-53E9-4F4E-8D7F-8E39AB3BF7B3'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('6630E05F-D790-44ED-86FF-1A0282AACF26'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'7834B122-53E9-4F4E-8D7F-8E39AB3BF7B3'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,3
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------ABRIL-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('D8A30944-7FB2-4144-A62A-1E3677B5B6F6'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('64ADA02F-68D5-46AA-956C-9A230CD6938B'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D8A30944-7FB2-4144-A62A-1E3677B5B6F6'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,4
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MAYO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('BB7ED760-E643-431A-8882-4B3EA3A5681B'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('329A66D5-E87E-404B-AEB0-807CED302E05'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'BB7ED760-E643-431A-8882-4B3EA3A5681B'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,5
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JUNIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('B0149F62-6230-4A51-9B2A-BBE622BF1C45'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('E481CC3C-7F7A-40FA-A213-16889771592F'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'B0149F62-6230-4A51-9B2A-BBE622BF1C45'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,6
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JULIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('F7D8B1BF-B2A8-4FF1-BF86-082A5550CC33'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('D99F0D62-1634-432B-8470-6E4789DCD218'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'F7D8B1BF-B2A8-4FF1-BF86-082A5550CC33'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,7
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------AGOSTO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7C04CC65-0645-4308-BCBA-292F85ECC859'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('462B2522-BB46-4C61-9E5E-7A94A64EAC96'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'7C04CC65-0645-4308-BCBA-292F85ECC859'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------SEPTIEMBRE-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('12B8201D-FBC4-43D2-821D-010072C6884F'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('CBF47E4E-D506-4A5D-B9C3-34FA761E5F53'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'12B8201D-FBC4-43D2-821D-010072C6884F'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
 ------------------------------------------------------
 -------------------OCTUBRE-2022---------------------
 ------------------------------------------------------
@@ -584,6 +1016,105 @@ INSERT INTO [dbo].[tbBalance]
            ,'2023-07-10 20:15:54.657'
            ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
 GO
+
+
+------------------------------------------------------
+---------------------AGOSTO-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('BFD97D5C-4D55-4C51-B2B4-371A6779C8F6'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('BE611C87-D780-4E7F-8C4F-971B0ABA3F11'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'BFD97D5C-4D55-4C51-B2B4-371A6779C8F6'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
+
+------------------------------------------------------
+---------------------SEPTIEMBRE-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('E7D5A4DF-68A2-4212-9A84-A9E7B8B3F1EE'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('FF634C70-AC95-4EEC-9D03-BDB426A71FDE'
+           ,'AB80F105-7B7B-4429-91C2-DA514BF301C7'
+           ,'E7D5A4DF-68A2-4212-9A84-A9E7B8B3F1EE'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
 ```
 
 </details>
@@ -594,8 +1125,441 @@ GO
 ### Energía San Luis de la Paz,S. A. de C. V.
 
 ```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
+------------------------------------------------------
+-------------------ENERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7301D17A-1DC9-48C8-85DA-DA0E89A8A256'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('A7DBCA15-92DD-473E-BE7C-ECAC0B023CF2'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'7301D17A-1DC9-48C8-85DA-DA0E89A8A256'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,1
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------FEBRERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('D9223D51-E8D2-488A-8068-2B7B56A47813'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('0CADE69F-3889-4393-A39C-196D2C28DE05'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D9223D51-E8D2-488A-8068-2B7B56A47813'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,2
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MARZO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('18C8DB39-8952-4882-A743-AFB052558338'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('280B030C-4C89-4329-9BF4-3396D2500BB7'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'18C8DB39-8952-4882-A743-AFB052558338'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,3
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------ABRIL-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('3DD9AEA2-9BC3-477B-95B4-7E740928175B'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('EBC0F4C1-AA27-429D-B928-40FEFA6EA83B'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'3DD9AEA2-9BC3-477B-95B4-7E740928175B'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,4
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MAYO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('484A7891-7C83-4912-8C55-E4EFF2C5A7FF'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('A88F455F-07E8-420F-BADF-38C1F4C9A097'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'484A7891-7C83-4912-8C55-E4EFF2C5A7FF'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,5
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JUNIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7997FE35-E16C-459F-A394-2A223D0D666E'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('D4D1C7B5-2955-40CF-B6C7-09D68A8E017A'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'7997FE35-E16C-459F-A394-2A223D0D666E'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,6
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JULIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('5FDC70FF-561F-4236-894D-3B5311BB8A52'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('51107AD2-0441-40DB-98AA-6F874B3E0DC3'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'5FDC70FF-561F-4236-894D-3B5311BB8A52'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,7
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------AGOSTO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('76F217FB-C8F3-4533-96AA-69B0EB7EF7F0'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('8371D6E6-CEC1-4BC2-B603-759B1BC4612E'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'76F217FB-C8F3-4533-96AA-69B0EB7EF7F0'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------SEPTIEMBRE-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('90B515D9-72B5-4ABC-B097-516C664783C1'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('3BE35275-3A3C-4855-B22F-6F47103BB486'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'90B515D9-72B5-4ABC-B097-516C664783C1'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
+
 ------------------------------------------------------
 -------------------OCTUBRE-2022---------------------
 ------------------------------------------------------
@@ -1076,20 +2040,60 @@ INSERT INTO [dbo].[tbBalance]
            ,'2023-07-10 20:15:54.657'
            ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
 GO
-```
 
-</details>
-<details>
 
-<summary>[Energía Chihuahua,S. A. de C. V.]</summary>
 
-### Energía Chihuahua,S. A. de C. V.
+------------------------------------------------------
+---------------------AGOSTO-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('036E2A84-CF32-4882-BDD9-39B4A2EA4342'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('B13A6983-1FF7-40CB-83F6-4C246331CC8B'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'036E2A84-CF32-4882-BDD9-39B4A2EA4342'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
 
-```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
 ------------------------------------------------------
--------------------OCTUBRE-2022---------------------
+---------------------SEPTIEMBRE-2023-----------------------
 ------------------------------------------------------
 INSERT INTO [dbo].[tbBalanceList]
            ([idBalanceList]
@@ -1101,104 +2105,8 @@ INSERT INTO [dbo].[tbBalanceList]
            ,[sActualStatus]
            ,[idPermit])
      VALUES
-           ('CD08316C-8FDE-4B3A-939C-1DF09DB959B4'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-            ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('305DABBB-FB6F-4A89-A89F-4EE5EDFAD290'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'CD08316C-8FDE-4B3A-939C-1DF09DB959B4'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,10
-           ,2022
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
--------------------NOVIEMBRE-2022---------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('DE90B6D5-9F73-497A-83AF-25A1653BCD2E'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-            ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('54370DAE-9DCA-4D71-AF4D-D05EB703ADF1'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'DE90B6D5-9F73-497A-83AF-25A1653BCD2E'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,11
-           ,2022
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
--------------------DICIEMBRE-2022---------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('723500E9-5905-46A9-B0F0-7D9F4828C7D1'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
+           ('00C42D2D-DA30-419B-BDF5-625D28E720BE'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
            ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
            ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
            ,'2023-07-10 19:19:58.193'
@@ -1220,353 +2128,17 @@ INSERT INTO [dbo].[tbBalance]
            ,[dLastUpdate]
            ,[idBalanceStatus])
      VALUES
-           ('C2AEEE46-BD11-41D8-A4C9-67186C9AD1DA'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'723500E9-5905-46A9-B0F0-7D9F4828C7D1'
+           ('FDBD44CE-4C31-43DD-AA72-7EB7E08508CB'
+           ,'21D9408F-4A31-48FD-9DC3-697696A253A4'
+           ,'00C42D2D-DA30-419B-BDF5-625D28E720BE'
            ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
            ,'EB5E8EF3-8F90-4772-B052-E66102384170'
            ,'SGT-78U'
-           ,12
-           ,2022
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------ENERO-2023-----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('F1B942DE-AB9D-4F7E-88E3-658F18838CD8'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('F5540160-3154-4826-9799-1FB111C30D00'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'F1B942DE-AB9D-4F7E-88E3-658F18838CD8'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,1
+           ,9
            ,2023
            ,'2023-07-10 20:15:54.657'
            ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
---------------------FEBRERO-2023----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('3C4CB6AD-1AFA-479A-A23B-421AB068E4BA'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('025A09A4-242B-4598-AF3B-0EF82FA529A3'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'3C4CB6AD-1AFA-479A-A23B-421AB068E4BA'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,2
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------MARZO-2023-----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('ECA481CF-62C1-4F44-A3FB-B8D9350E0963'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('5873296C-70AE-483F-9E19-D1AE1FE7EC42'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'ECA481CF-62C1-4F44-A3FB-B8D9350E0963'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,3
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------ABRIL-2023-----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('C0AD66AD-46DB-404E-9277-42A1B839CEE6'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('CE98DB23-C68F-4BA1-B2CF-BE559CC09DD6'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'C0AD66AD-46DB-404E-9277-42A1B839CEE6'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,4
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------MAYO-2023------------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('DFED3106-60F4-4503-A676-4BE5364B7385'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('A984F554-FFC9-4251-8875-EFDEC5F10064'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'DFED3106-60F4-4503-A676-4BE5364B7385'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,5
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------JUNIO-2023-----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('8EC9821F-366A-464E-82A2-A88AE8D67E19'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('24FB2A0F-78D5-434A-ACB9-E9C97A91BC4D'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'8EC9821F-366A-464E-82A2-A88AE8D67E19'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,6
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
-GO
-------------------------------------------------------
----------------------JULIO-2023-----------------------
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalanceList]
-           ([idBalanceList]
-           ,[idEntity]
-           ,[idFacility]
-           ,[idBalanceWorkFlow]
-           ,[dCreatedOn]
-           ,[idCreatedBy]
-           ,[sActualStatus]
-           ,[idPermit])
-     VALUES
-           ('4C4FEE34-4E18-45D3-9E41-C1E96E9CAF3E'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'2023-07-10 19:19:58.193'
-           ,'67004282-6F35-46EE-8634-8D46D3C78333'
-           ,'A'
-           ,'1')
-GO
-------------------------------------------------------
-INSERT INTO [dbo].[tbBalance]
-           ([idBalance]
-           ,[idEntity]
-           ,[idBalanceList]
-           ,[idBalanceWorkFlow]
-           ,[idEntityCharacterType]
-           ,[sPermit]
-           ,[iPeriod]
-           ,[iPeriodYear]
-           ,[dCreatedOn]
-           ,[dLastUpdate]
-           ,[idBalanceStatus])
-     VALUES
-           ('F75C433E-0F48-4D24-922D-309ADE77AC9D'
-           ,'8DEE0660-0020-4862-9B07-2DC30FD5F065'
-           ,'4C4FEE34-4E18-45D3-9E41-C1E96E9CAF3E'
-           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
-           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
-           ,'SGT-78U'
-           ,7
-           ,2023
-           ,'2023-07-10 20:15:54.657'
-           ,'2023-07-10 20:15:54.657'
-           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
 GO
 ```
 
@@ -1578,8 +2150,441 @@ GO
 ### Gasoducto La Rosita,S. de R. L. de C. V.
 
 ```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
+------------------------------------------------------
+-------------------ENERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('25376EC6-84BC-4F1F-AE79-61CEBB0259A8'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('5DF2C11E-C73C-4A9B-A150-FEDED7320CD3'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'25376EC6-84BC-4F1F-AE79-61CEBB0259A8'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,1
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------FEBRERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('EB8E0073-F6AC-4207-8229-AB6E45847C2A'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('83D5266F-039E-4C7B-9E9C-90059CA727CE'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'EB8E0073-F6AC-4207-8229-AB6E45847C2A'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,2
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MARZO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('A500A58A-A573-4208-A035-145B5A7B5A40'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('5B0D9615-C921-42EE-A035-7DDA8933A996'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'A500A58A-A573-4208-A035-145B5A7B5A40'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,3
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------ABRIL-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('8D01368C-082F-4B70-B306-05209B656992'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('BB49A225-0708-440E-AD2F-031EDA1606BD'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'8D01368C-082F-4B70-B306-05209B656992'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,4
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MAYO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('2581B03E-A53E-4894-A858-C9F9CE2412D2'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('0A249FA3-C789-467A-AF90-601FC63975A4'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'2581B03E-A53E-4894-A858-C9F9CE2412D2'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,5
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JUNIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('DECD30F9-07DC-4DE1-A921-1369C0C45E07'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('1CAE22B1-6807-4AC9-8F29-6116EC3DE935'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'DECD30F9-07DC-4DE1-A921-1369C0C45E07'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,6
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JULIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('DA351986-C4F9-4EB8-A063-E29F5F9FB306'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('1F5B7C9D-9F18-44A0-8191-9F7928B2C8F4'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'DA351986-C4F9-4EB8-A063-E29F5F9FB306'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,7
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------AGOSTO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('4540CEF1-4DA3-45A1-A678-0C58ABBDB3FD'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('A42A4B61-A6BE-465D-95ED-84DC55406BE2'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'4540CEF1-4DA3-45A1-A678-0C58ABBDB3FD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------SEPTIEMBRE-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('694FE594-1CF0-4B57-A4F3-038D2F45C828'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('C6F826E9-522D-453F-B908-B686702D5E9C'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'694FE594-1CF0-4B57-A4F3-038D2F45C828'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
+
 ------------------------------------------------------
 -------------------OCTUBRE-2022---------------------
 ------------------------------------------------------
@@ -2060,6 +3065,106 @@ INSERT INTO [dbo].[tbBalance]
            ,'2023-07-10 20:15:54.657'
            ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
 GO
+
+
+
+------------------------------------------------------
+---------------------AGOSTO-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('15E600AC-9C14-43E9-9D10-CCBECAD744D1'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('785A2B32-0634-464E-A321-36F17FEEF53C'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'15E600AC-9C14-43E9-9D10-CCBECAD744D1'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
+
+------------------------------------------------------
+---------------------SEPTIEMBRE-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('C19B8D7C-FB7F-4065-AF7A-6440BBDA13BF'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('47359A78-F7D8-4929-907E-0F4EB011E0A0'
+           ,'0A823137-DBFD-434B-9A55-ABD8D1CB51D0'
+           ,'C19B8D7C-FB7F-4065-AF7A-6440BBDA13BF'
+           ,'99BA2F4D-FB5E-4C00-9FA6-AA6FE585DD7F'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
 ```
 
 </details>
@@ -2070,8 +3175,441 @@ GO
 ### Compresión Altamira,S. A. de C. V.
 
 ```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
+------------------------------------------------------
+-------------------ENERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('A608C11B-12D4-4509-A354-177B88571E99'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('26769303-623A-40E9-BE20-F75E04A0FB38'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'A608C11B-12D4-4509-A354-177B88571E99'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,1
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------FEBRERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('985D03F5-99D7-4D5C-B4A4-2ECA9079A58B'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('ABBA33F8-588A-470D-89E1-AFF938409A93'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'985D03F5-99D7-4D5C-B4A4-2ECA9079A58B'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,2
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MARZO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('175347E2-549D-472C-828D-E70330FC2865'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('FC7D1FE8-3DB7-44B1-91EE-C7CA3CE6FCF3'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'175347E2-549D-472C-828D-E70330FC2865'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,3
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------ABRIL-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('A34454B9-0396-4027-B86F-0A7ED4E1FD5C'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('5F0D7C4D-5BF1-44DD-B4D8-3F6E8609D6CF'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'A34454B9-0396-4027-B86F-0A7ED4E1FD5C'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,4
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MAYO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('32872896-5437-43D8-8E6D-C6135CCB4B56'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('85848B3E-28DD-473A-ABE2-81D5F0A95225'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'32872896-5437-43D8-8E6D-C6135CCB4B56'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,5
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JUNIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('8AA920A7-F807-46B8-AF68-4AF4ED7CFC00'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('1CD45B87-4861-4F9D-8653-EB9EF5326B13'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'8AA920A7-F807-46B8-AF68-4AF4ED7CFC00'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,6
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JULIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('3B6E8D88-5B67-4D9C-88BC-238D6CD0F27E'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('83AD0321-8418-4C64-A391-E9F82947F0A4'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'3B6E8D88-5B67-4D9C-88BC-238D6CD0F27E'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,7
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------AGOSTO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('129EBDD5-171A-4CF6-BA0B-BA3D434AD88B'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('3C1D3655-9F8D-4E48-A622-588A306D2ABA'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'129EBDD5-171A-4CF6-BA0B-BA3D434AD88B'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------SEPTIEMBRE-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('33FFBB61-60A8-4710-978B-19A7B099A219'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('F5D64FA1-5473-4633-8FC2-3C537E4223C7'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'33FFBB61-60A8-4710-978B-19A7B099A219'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
+
 ------------------------------------------------------
 -------------------OCTUBRE-2022---------------------
 ------------------------------------------------------
@@ -2552,6 +4090,106 @@ INSERT INTO [dbo].[tbBalance]
            ,'2023-07-10 20:15:54.657'
            ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
 GO
+
+
+
+------------------------------------------------------
+---------------------AGOSTO-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('9B4A95BF-1BF9-415A-BA59-770A12DA29B0'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('CF7E86CE-19C7-422C-B30F-EBB7754FECE8'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'9B4A95BF-1BF9-415A-BA59-770A12DA29B0'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
+
+------------------------------------------------------
+---------------------SEPTIEMBRE-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('090BF9A4-63A6-4A23-B003-6C106A8699DC'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('56255DF1-8A0C-4B0A-88BB-902FBBC57097'
+           ,'807415CD-846D-4706-8DF1-FDB6C19E85D6'
+           ,'090BF9A4-63A6-4A23-B003-6C106A8699DC'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
 ```
 
 </details>
@@ -2562,8 +4200,443 @@ GO
 ### Green Energy Libramiento
 
 ```sql
---execute spAPI_GetBalanceDayTupsComp 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
---execute [spAPI_GetTotalCalculationTUPs] 'EBFF12FA-A1F7-49A0-921B-33D167D8965C', 'admin01'
+------------------------------------------------------
+-------------------ENERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('61F24236-9371-4524-97C8-ABEA3ED32575'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('8580839E-31D8-4CEC-B579-AD1E3A77D721'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'61F24236-9371-4524-97C8-ABEA3ED32575'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,1
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------FEBRERO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('6596B045-39B1-44ED-83FC-0BFE34860EDB'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('C728917C-F7EC-42D3-860E-DC0CA1FC92EE'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'6596B045-39B1-44ED-83FC-0BFE34860EDB'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,2
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MARZO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('9761CDED-E656-4140-83AA-4FF5F94626AE'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('9DB71AFF-DC15-481C-918F-91B6E5526AAD'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'9761CDED-E656-4140-83AA-4FF5F94626AE'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,3
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------ABRIL-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('835E3078-9C4E-4C2E-9285-C3C3E5DC0F42'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('78ECEDFC-9E1A-4DE5-9192-ECD785E6966D'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'835E3078-9C4E-4C2E-9285-C3C3E5DC0F42'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,4
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------MAYO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('52541B1C-7B49-4CCA-9622-64B30396D7BF'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('2975AC96-E712-434F-83E4-32449C962822'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'52541B1C-7B49-4CCA-9622-64B30396D7BF'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,5
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JUNIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('1394FB70-825D-4624-9EB9-7BFDB2AD9D59'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('EE739C8D-A729-429E-886A-FBC0509E9EC8'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'1394FB70-825D-4624-9EB9-7BFDB2AD9D59'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,6
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------JULIO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7C696E9B-C50E-4BFC-B45D-69AEA0DF2227'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('08638A5A-32D4-4115-A193-D7B7BDB7DE00'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'7C696E9B-C50E-4BFC-B45D-69AEA0DF2227'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,7
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------AGOSTO-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('05209F83-93DD-407A-9F4D-4612C03FB0D5'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('8C62A890-0777-44C2-B628-9854B6E2BA18'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'05209F83-93DD-407A-9F4D-4612C03FB0D5'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+------------------------------------------------------
+-------------------SEPTIEMBRE-2022---------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('EF5B261C-6F4F-4828-B957-8553B724A80B'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+            ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('88D9CA42-A083-4722-9140-F033AFBABC37'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'EF5B261C-6F4F-4828-B957-8553B724A80B'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2022
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
+
+
+
 ------------------------------------------------------
 -------------------OCTUBRE-2022---------------------
 ------------------------------------------------------
@@ -3043,6 +5116,106 @@ INSERT INTO [dbo].[tbBalance]
            ,'2023-07-10 20:15:54.657'
            ,'2023-07-10 20:15:54.657'
            ,'9BC3D15B-E989-4AE6-B286-2F7002577E4A')
+GO
+
+
+
+------------------------------------------------------
+---------------------AGOSTO-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('B1DC96CB-911D-4F7E-B7FA-68105D4F12E0'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('6F3F602D-6230-4E38-824B-EECD1F3B13A1'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'B1DC96CB-911D-4F7E-B7FA-68105D4F12E0'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,8
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
+GO
+
+------------------------------------------------------
+---------------------SEPTIEMBRE-2023-----------------------
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalanceList]
+           ([idBalanceList]
+           ,[idEntity]
+           ,[idFacility]
+           ,[idBalanceWorkFlow]
+           ,[dCreatedOn]
+           ,[idCreatedBy]
+           ,[sActualStatus]
+           ,[idPermit])
+     VALUES
+           ('7942F8CD-B7BA-4D5C-9A6C-4E74226FE000'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'D435ADBD-31DF-4763-B913-172B2CAD07DD'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'2023-07-10 19:19:58.193'
+           ,'67004282-6F35-46EE-8634-8D46D3C78333'
+           ,'A'
+           ,'1')
+GO
+------------------------------------------------------
+INSERT INTO [dbo].[tbBalance]
+           ([idBalance]
+           ,[idEntity]
+           ,[idBalanceList]
+           ,[idBalanceWorkFlow]
+           ,[idEntityCharacterType]
+           ,[sPermit]
+           ,[iPeriod]
+           ,[iPeriodYear]
+           ,[dCreatedOn]
+           ,[dLastUpdate]
+           ,[idBalanceStatus])
+     VALUES
+           ('F502E03D-11EA-492F-AE44-6BBFAA7D39C8'
+           ,'A1A28A13-25E7-4043-8332-BF1EF442A519'
+           ,'7942F8CD-B7BA-4D5C-9A6C-4E74226FE000'
+           ,'823D917B-2FE8-4F1D-B13B-584E9C5BF759'
+           ,'EB5E8EF3-8F90-4772-B052-E66102384170'
+           ,'SGT-78U'
+           ,9
+           ,2023
+           ,'2023-07-10 20:15:54.657'
+           ,'2023-07-10 20:15:54.657'
+           ,'A8D1390E-B45C-441B-BFD1-DDCCD93AEE18')
 GO
 ```
 
